@@ -16,7 +16,7 @@ form.addEventListener('submit', handleSubmit)
 function handleSubmit(e) {
   e.preventDefault()
   span.style.display = 'none'
-  form.style.height = '280px'
+  form.style.height = '260px'
   emailInput.style.display = 'none'
   h2.innerHTML = 'Inscrição feita com sucesso!'
   h3.innerHTML =
